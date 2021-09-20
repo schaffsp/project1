@@ -1,0 +1,14 @@
+.navbar {
+    flex-basis: 10vh;
+    width: auto;
+    border-bottom: 3px solid var(--contrast-color);
+    font-family: 'Lora', serif;
+}
+
+.nav-elements {
+    margin-left: 30vh;
+    margin-right: 30vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

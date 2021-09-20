@@ -15,21 +15,6 @@ body {
     flex-direction: column;
 }
 
-.navbar {
-    flex-basis: 10vh;
-    width: auto;
-    border-bottom: 3px solid var(--contrast-color);
-    font-family: 'Lora', serif;
-}
-
-.nav-elements {
-    margin-left: 30vh;
-    margin-right: 30vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
 .title-splash {
     background-image: linear-gradient(45deg, var(--gradient-light), var(--gradient-dark));
     flex-basis: calc(85vh - 6px);
@@ -79,22 +64,4 @@ body {
 .title-image > img {
     width: 300px;
     height: 300px;
-}
-
-.footer {
-    border-top: 3px solid var(--contrast-color);
-    flex-basis: 5vh;
-    display: flex;
-    margin-top: auto;
-    color: var(--contrast-color);
-    font-family: 'Lora', serif;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer > p {
-    text-align: center;
-    font-weight: bold;
-    padding: 0px;
-    margin: 0px;
 }
