@@ -1,0 +1,24 @@
+#info-image {
+    width: 450px;
+    height: 600px;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info-coluumn {
+    flex: 3;
+}
+
+.image-column {
+    margin-top: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.info-image-label {
+    font-family: 'Lora', serif;
+    align-self: center;
+}

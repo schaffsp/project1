@@ -1,0 +1,42 @@
+.section-header {
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 1em;
+    font-size: 2em;
+    margin-bottom: 0px;
+}
+
+.section-body {
+    font-family: 'Lora', serif;
+    padding-left: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: var(--contrast-color-2);
+}
+
+.section-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(45deg, var(--gradient-light), var(--gradient-dark));
+    min-height: calc(85vh - 6px);
+}
+
+.section-image {
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--contrast-color-2);
+    border-radius: 0.5em;
+}
+
+.default-button {
+    cursor: pointer;
+    border-color: var(--contrast-color);
+    border-width: 1px;
+    border-style: solid;
+    color: var(--contrast-color);
+    background-color: white;
+    font-size: 1em;
+    border-radius: 0.2em;
+    font-family: 'Abril Fatface', cursive;
+    box-shadow: 2px 3px darkslategray;
+}
+
