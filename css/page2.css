@@ -1,24 +1,16 @@
-#info-image {
-    width: 450px;
-    height: 600px;
-}
-
-.info-container {
+.image-bar {
     display: flex;
+    justify-content: center;
 }
 
-.info-coluumn {
-    flex: 3;
+.image-bar > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5em;
+    margin: 10px;
 }
 
-.image-column {
-    margin-top: 10px;
+.page-body {
     display: flex;
-    flex: 1;
     flex-direction: column;
-}
-
-.info-image-label {
-    font-family: 'Lora', serif;
-    align-self: center;
 }
