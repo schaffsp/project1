@@ -12,3 +12,13 @@
     display: flex;
     justify-content: space-between;
 }
+
+.nav-elements > a {
+    color: black;
+    font-weight: 2em;
+    text-decoration: none;
+}
+
+#nav-selected {
+    font-style: italic;
+}
