@@ -6,8 +6,8 @@
 }
 
 .nav-elements {
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -21,4 +21,21 @@
 
 #nav-selected {
     font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-basis: 5vh;
+    }
+
+    .nav-elements {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-elements > a {
+        font-size: 0.7em;
+        text-align: center;
+    }
 }
