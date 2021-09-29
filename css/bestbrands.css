@@ -1,0 +1,12 @@
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5em;
+    margin: 10px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+}
